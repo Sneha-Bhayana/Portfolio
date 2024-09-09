@@ -5,9 +5,103 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.keyPoints li  {
+  text-decoration: none;
+  list-style-type: none !important;
+  margin-top: 10px  ;
+}
+
+.keyPoints li a{
+  opacity: 50%;
+  text-decoration: none;
+  color: white ;
+}
+
+.keyPoints li a:hover{
+  opacity: 100%;
+}
+
+.navlinks button a{
+  text-decoration: none;
+  color: white;
+}
+
+.navlinks button:hover{
+  background-color: rgb(52,52,52); 
+}
+
+.navlinks button:active{
+  background-color: rgba(0, 0, 0, 0.742) !important; 
+}
+
+.education{
+  background-color: rgba(0, 0, 0, 0.485) !important;
+  border-radius: 100px !important;
+  z-index: 0 !important;
+  transition: 0.2s all !important;
+}
+
+.education:hover{
+  z-index: 1;
+  transform: scale(1.05) !important;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2) !important;
+}
+
+.project{
+  z-index: 0 !important;
+  transition: 0.2s all !important;
+  border-radius: 40px !important;
+}
+
+.project img{
+  border-top-right-radius: 50px !important;
+  border-top-left-radius: 50px !important;
+}
+
+.project:hover{
+  z-index: 1;
+  transform: scale(1.05) !important;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.221) !important;
+  opacity: 1 !important;
+}
+
+.skill p{
+  text-align: center;
+}
+
+.skill div{
+  z-index: 0 !important;
+  transition: 0.2s all !important;
+  border-radius: 10px !important;
+  border: 4px solid rgb(52,52,52);
+  background-color: black !important;
+  height: 9.5rem !important;
+  width: 9.5rem !important;
+
+}
+
+.skill div:hover{
+  z-index: 1;
+  transform: scale(1.05) !important;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2) !important;
+  opacity: 1 !important;
+  background-color: rgb(52,52,52) !important;
+}
+
+
+
+
+
+
+
+
+
