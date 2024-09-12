@@ -26,9 +26,9 @@ function EducationPage() {
           </p>
         </div>
 
-        <div className="d-flex justify-content-end">
+        <div className="d-flex justify-content-end school">
           <div
-            className="border border-2 py-4 px-5 education"
+            className="border border-2 py-4 px-5 education "
             style={{
               height: "280px",
               width: "500px",

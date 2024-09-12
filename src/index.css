@@ -97,6 +97,33 @@ code {
   background-color: rgb(52,52,52) !important;
 }
 
+@media (width <=360px) {
+  .homemainnav  {
+    width: min-content;
+  }
+
+  .navlinks button {
+    max-height: 0.1px;
+    max-width: 0.2px;
+  } 
+
+  .navlinks a{
+    font-size:x-small;
+  }
+
+  .education {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    }
+
+
+  .homemaindisplay{
+    width:min-content ;
+  } 
+  
+} 
+
 
 
 

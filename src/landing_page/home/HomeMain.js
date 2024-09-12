@@ -6,7 +6,7 @@ function HomeMain(props) {
   return (
     <>
       <div className="row">
-        <div className="col-4 bg p-5 mt-3 fs-5">
+        <div className="col-4 bg p-5 mt-3 fs-5 homemaindisplay">
           <img
             src="dp2.jpg"
             className="rounded-circle"
@@ -56,7 +56,7 @@ function HomeMain(props) {
           </ul>
         </div>
         <div
-          className="col-7 border border-secondary border-1 rounded-4 mt-5"
+          className="col-7 border border-secondary border-1 rounded-4 mt-5 homemainnav"
           style={{ width: "64%" }}
         >
           <Nav />
